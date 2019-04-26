@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<style type="text/css">
+			body {
+				background: #fff;
+			}
+			
+			.mui-content {
+				padding: 10px;
+				background: #fff;
+			}
+			
+			.search-box {
+				display: flex;
+				align-items: center;
+				background: #f3f3f3;
+				border-radius: 20px;
+				padding: 0 5px;
+			}
+			
+			.select {
+				width: 25%;
+				display: flex;
+				font-size: 14px;
+				display: flex;
+				align-items: center;
+				color: #e69336;
+				border-radius: 10px;
+			}
+			
+			.mui-btn {
+				color: #e69336;
+			}
+			
+			.select .mui-icon {
+				font-size: 16px;
+				color: #e69336;
+			}
+			
+			.mui-input-row {
+				width: 80%;
+			}
+			
+			.mui-input-row input {
+				margin: 0;
+				background: #f3f3f3;
+				border-radius: 20px;
+			}
+			
+			.mui-search .mui-placeholder {
+				font-size: 14px;
+			}
+			
+			div.mui-input-row.mui-search.mui-active::before {
+				margin-top: -10px;
+			}
+			
+			.total {
+				font-size: 12px;
+				text-align: center;
+				margin-top: 20px;
+				color: #666;
+			}
+			
+			.card {
+				border-top: 3px solid #e69336;
+				height: 300px;
+				background: #fff;
+				box-shadow: 0 3px 10px #efefef;
+				margin: 20px 20px;
+			}
+			
+			.card:first-child {
+				margin-top: 5px;
+			}
+			
+			.item {
+				display: flex;
+				justify-content: space-between;
+				padding: 5px 10px;
+				font-size: 13px;
+				color: #666;
+			}
+			
+			.mui-plus .plus {
+				display: inline;
+			}
+			
+			.plus {
+				display: none;
+			}
+			
+			#topPopover {
+				position: fixed;
+				top: 16px;
+				right: 6px;
+			}
+			
+			#topPopover .mui-popover-arrow {
+				left: auto;
+				right: 6px;
+			}
+			
+			p {
+				text-indent: 22px;
+			}
+			
+			span.mui-icon {
+				font-size: 14px;
+				color: #007aff;
+				margin-left: -15px;
+				padding-right: 10px;
+			}
+			
+			.mui-popover {
+				height: 100px;
+			}
+			
+			.mui-content {
+				padding: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<script src="../js/mui.min.js"></script>
+		<div class="mui-content">
+			<div class="search-box">
+				<div class="select">
+					<a href="#bottomPopover" class="mui-btn mui-btn-link mui-pull-right">班列号</a>
+					<span class="mui-icon mui-icon-arrowdown"></span>
+				</div>
+				<div class="mui-input-row mui-search">
+					<input type="search" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="total">
+				塑料袋高科技：10
+			</div>
+			<div class="">
+				<div class="card">
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+				</div>
+				<div class="card">
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+				</div>
+				<div class="card">
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+					<div class="item">
+						<span class="">水电费</span>
+						<span class="">凡士林看到过</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="bottomPopover" class="mui-popover mui-popover-bottom">
+			<div class="mui-popover-arrow"></div>
+			<div class="mui-scroll-wrapper">
+				<div class="mui-scroll">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell" id="item1">
+							<a href="#">哈哈哈</a>
+						</li>
+						<li class="mui-table-view-cell" id="item2">
+							<a href="#">不可及时</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<script type="text/javascript">
+			mui.init();
+			mui('.mui-scroll-wrapper').scroll();
+			mui('body').on('shown', '.mui-popover', function(e) {
+				console.log(233)
+				//console.log('shown', e.detail.id);//detail为当前popover元素
+			});
+			mui('body').on('hidden', '.mui-popover', function(e) {
+				//console.log('hidden', e.detail.id);//detail为当前popover元素
+			});
+			mui('#bottomPopover').on('tap', '#item1', function(e) {
+				mui('#bottomPopover').popover('hide');
+				console.log('这是第一个')
+				
+				
+				
+			});
+			mui('#bottomPopover').on('tap', '#item2', function(e) {
+				mui('#bottomPopover').popover('hide');
+				console.log('这是第er个')
+				
+				
+				
+			});
+		</script>
+	</body>
+
+</html>
